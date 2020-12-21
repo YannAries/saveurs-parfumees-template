@@ -1,0 +1,212 @@
+/**********Général**********/
+
+a {
+  text-decoration: none;
+}
+
+.bg-black {
+  background-color: rgb(19, 19, 19);
+}
+
+.font {
+  font-family: "Satisfy";
+}
+
+.text-red {
+  color: rgb(200, 0, 0);
+}
+
+.savoirPlus, .savoirPlus:hover {
+  color: #000;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.savoirPlus:hover {
+  opacity: 0.8;
+}
+
+.text {
+  color: rgb(75, 75, 75);
+}
+
+/**********Top**********/
+
+.bgTop {
+  background: url("../images/banniere-gateau.jpg") no-repeat center 0;
+  background-attachment: fixed;
+  height: 550px;
+}
+
+/***Id Scroll Spy***/
+
+#qualite, #semaine, #historique, #evenements {
+  padding-top: 95px;
+}
+
+/**********Body**********/
+
+.bgDescription {
+  background: url("../images/description.jpg") no-repeat center;
+}
+
+.bgHistoire {
+  background: url("../images/histoire.jpg") no-repeat center;
+}
+
+.icon1 {
+  color: rgb(200, 0, 0); 
+  font-size: 50px;
+  padding: 20px;
+}
+
+.icon2 { 
+  color: rgb(200, 0, 0);
+  font-size: 30px;
+}
+  
+.ingredient {
+  color:rgb(170, 169, 169);
+}
+
+.points {
+  border-bottom: #000 2px dotted;
+  flex-grow: 1;
+  transform: scaleY(0.5);
+}
+
+.dateScript {
+  right: 0;
+  top: 0;
+}
+
+/***Image Évènements***/
+/*zoom img*/
+
+.zoomImg {
+  transition: 500ms;
+}
+
+.zoomImg:hover {
+  transform: scale(1.25);
+  filter: opacity(0.9);
+}
+
+.overFlow {
+  overflow: hidden;
+  position: relative;
+}
+
+/*date boite rouge*/
+
+.jours {
+  color: #FFF;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.mois {
+  color: #FFF;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/*boite rouge*/
+
+.dateBoite {
+  background: rgb(200, 0, 0);
+  height: 75px;
+  right: 10px;
+  top: 10px;
+  width: 75px;
+  outline: 1px solid #FFF;
+  outline-offset: -5px;
+}
+
+/*boite text*/
+
+.boiteText {
+  height: 275px;
+}
+
+/**********Bas**********/
+/***Carousel***/
+
+/*fleche*/
+
+.carousel-control-prev, .carousel-control-next {
+  width: 3%;
+}
+
+/*like insta*/
+
+.overlay { 
+  background-color: rgba(37, 37, 37, 0.3);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .3s;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: #FFF;
+  font-size: 15px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+/***Email***/
+
+#email {
+  background: none;
+}
+
+.form-control {
+  background: none;
+  border: none;
+  border-radius: 20px;
+}
+
+.input-group {
+  border: solid 1px rgb(136, 136, 136);
+  border-radius: 20px;
+}
+
+.Mail {
+  border-left: solid 1px rgb(136, 136, 136);
+  color: rgb(136, 136, 136);  
+}
+
+.iconMail {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.bs-linebreak {
+  margin-top: 2px;
+}
+
+/**********Média query**********/
+
+@media (max-width: 991px) {
+  .bgHistoire {
+   height: 575px; /* ou 350px */
+  }
+
+  .bgDescription {
+   height: 575px; /* ou 350px */
+  }
+}
