@@ -2,7 +2,7 @@
 
 ![Saveurs parfumées web template](images/cover.png)  
 
-[Link Template](https://yannaries.github.io/saveurs-parfumees/)
+[Link Template](https://yannaries.github.io/saveurs-parfumees-template/)
 
 &nbsp;
 
